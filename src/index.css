@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-x: hidden;
+}
+.mainNav{
+  height: 100vh;
+}
+nav {
+  height: 80px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+nav img {
+  height: 150px;
+  /* margin-top: -40px; */
+}
+
+nav h1 {
+  color: white;
+  border-bottom: solid white;
+}
+
+.nav1 {
+  display: flex;
+  gap: 40px;
+  margin-right: 100px;
+
+}
+
+.bg {
+  height: 90vh;
+  width: 100vw;
+}
+
+.bg img {
+  height: 110vh;
+  width: 100vw;
+
+}
+
+.games {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-around;
+  gap: 10px;
+
+
+}
+
+.text {
+  font-weight: 200px;
+  font-size: 40px;
+  text-align: center;
+  color: red;
+  /* margin-left: 600px; */
+}
+
+.games img {
+  height: 300px;
+  width: 250px;
+
+}
+.games img:hover{
+  
+  transition: 0.7s ease;
+}
+
+.games h5 {
+  color: rgb(72, 72, 72);
+}
+
+.game1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.main {
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.main h1 {
+  color: white;
+  margin-top: 10px;
+}
+
+.main .main2 {
+  height: 60vh;
+  width: 30vw;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.main .main2 input {
+  height: 4vh;
+  width: 25vw;
+  margin-top: 10px;
+  padding-left: 5px;
+  outline: 0;
+
+}
+
+.main2 button {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  transition: ease-in 0.5s;
+}
+
+.main2 button:hover {
+  color: black;
+  background-color: red;
+}
+
+ .pay1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.pay2 {
+  box-shadow: 3px 5px 10px 13px lightgrey;
+  border-radius: 15px;
+  height: 60vh;
+  width: 60vw;
+  padding: 20px;
+}
+
+.pay3 {
+  display: flex;
+  
+}
+
+.payform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  margin-left: 300px;
+  
+}
+
+.payform input {
+  padding: 10px 30px;
+}  
+
+  .pay2 h1 {
+    text-align: center;
+    margin-top: 20px;
+  } 
+  .payform button {
+    border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  transition: ease-in 0.5s;
+  }
+  button:hover {
+    color: black;
+    background-color: red;
+  }
+
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+
+   /* .pay1 { */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+  
+   .pay2 {
+    box-shadow: 3px 5px 10px 13px lightgrey;
+    border-radius: 15px;
+    height: 60vh;
+    width: 60vw;
+    padding: 20px;
+  }
+  
+  .pay1 {
+    display: flex;
+  }
+  
+  .payform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .payform input {
+    padding: 10px 30px;
+  }  */
